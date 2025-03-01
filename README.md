@@ -3,50 +3,49 @@ Autism Prediction Using ML | Developed a model using Decision Tree, Random Fores
 
 Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects social interactions, communication, and behavior. Early detection is essential for timely intervention. This project applies machine learning techniques to predict ASD based on key features from a dataset.
 
-Key Highlights:
+## Key Highlights:
 
-✅ Addressed missing values in the dataset
-✅ Identified class imbalance in the target variable
-✅ Performed Exploratory Data Analysis (EDA) and handled outliers
-✅ Applied Label Encoding and saved the encoders
-✅ Used SMOTE (Synthetic Minority Oversampling Technique) to balance classes
-✅ Implemented Decision Tree, Random Forest, and XGBoost classifiers
-✅ Performed Hyperparameter Tuning & Cross-Validation
-✅ Achieved high accuracy with the best-performing model
+- Addressed missing values in the dataset
 
-🛠️ Technologies & Tools Used
+- Identified class imbalance in the target variable
+
+- Performed Exploratory Data Analysis (EDA) and handled outliers
+
+- Applied Label Encoding and saved the encoders
+- Used SMOTE (Synthetic Minority Oversampling Technique) to balance classes
+- Implemented Decision Tree, Random Forest, and XGBoost classifiers
+- Performed Hyperparameter Tuning & Cross-Validation
+- Achieved high accuracy with the best-performing model
+
+## Technologies & Tools Used
 
 Programming Language: Python
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Imbalanced-learn, XGBoost
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Imbalanced-learn, XGBoost
+- Machine Learning Models:
 
-Machine Learning Models:
+  - Decision Tree
 
-Decision Tree
+  - Random Forest
 
-Random Forest
-
-XGBoost
+  - XGBoost
 
 Platform: Google Colab
 
-Model Performance & Results
-The Decision Tree model achieved an accuracy of 82% on training data and 79% on test data. 
+## Model Performance & Results
+- The Decision Tree model achieved an accuracy of 82% on training data and 79% on test data. 
 
-The Random Forest model performed better with an accuracy of 89% on training data and 85% on test data. 
+- The Random Forest model performed better with an accuracy of 89% on training data and 85% on test data. 
 
-The best-performing model was XGBoost, which achieved a training accuracy of 93% and a test accuracy of 82%.
+- The best-performing model was XGBoost, which achieved a training accuracy of 93% and a test accuracy of 82%.
 
-Dataset Information
+- Performwd Exploratory Data Analysis (EDA), feature engineering, hyperparameter tuning, and model evaluation to select the best-performing model. The evaluation metrics include accuracy, precision, recall, F1-score, and confusion matrix analysis.
 
-Source:
-Features Used: Categorical and Numerical attributes related to ASD diagnosis
+## Preprocessing Steps:
 
-Preprocessing Steps:
+- Handled missing values
 
-Handled missing values
+- Addressed class imbalance in target and categorical features
 
-Addressed class imbalance in target and categorical features
-
-Performed label encoding for categorical variables
+- Performed label encoding for categorical variables
 
